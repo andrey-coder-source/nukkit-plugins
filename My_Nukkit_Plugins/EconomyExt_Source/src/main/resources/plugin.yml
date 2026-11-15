@@ -1,0 +1,13 @@
+name: EconomyExt
+main: ru.andrey.ecoext.EconomyExtPlugin
+version: 1.0.0
+api: ["1.0.0"]
+author: Andrey
+description: Расширенные команды экономики для Создателя
+
+depend: ["EconomyAPI", "Ranks", "Cases"]
+
+permissions:
+  economyext.creator:
+    default: false
+    description: Расширенные команды экономики (только для создателя)
